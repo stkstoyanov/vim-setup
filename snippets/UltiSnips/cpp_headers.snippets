@@ -1,0 +1,37 @@
+snippet hi "header info" b
+/// @file `!v expand('%:t')`
+/// @brief ${1:desc}
+/// @author ${2:Stoyan Stoyanov}
+/// @version ${3:0.0.1}
+
+endsnippet
+
+snippet hg "header guard" b
+#ifndef ${1:`!p
+if not snip.c:
+  snip.rv='_' + snip.basename.upper() + '_H_'
+else:
+  snip.rv=snip.c`}
+#define $1
+
+$0
+
+#endif // $1
+endsnippet
+
+snippet hgu "header guard with a unique ID" b
+#ifndef ${1:`!p
+if not snip.c:
+  import uuid
+  us='_'
+  hid=str( uuid.uuid4() ).replace('-', '').upper()
+  rv=us + snip.basename.upper() + '_H_' + hid  + us
+  snip.rv=rv
+else:
+  snip.rv=snip.c`}
+#define $1
+
+$0
+
+#endif // $1
+endsnippet
