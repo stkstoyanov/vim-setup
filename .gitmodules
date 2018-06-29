@@ -1,0 +1,6 @@
+[submodule "pack\\base\\start\\auto-pairs"]
+	path = pack\\base\\start\\auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "pack\\base\\start\\ctrlp.vim"]
+	path = pack\\base\\start\\ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
