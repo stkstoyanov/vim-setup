@@ -1,6 +1,36 @@
-[submodule "pack\\base\\start\\auto-pairs"]
-	path = pack\\base\\start\\auto-pairs
+[submodule "pack/base/start/auto-pairs"]
+	path = pack/base/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
-[submodule "pack\\base\\start\\ctrlp.vim"]
-	path = pack\\base\\start\\ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
+[submodule "pack/base/start/ctrlp.vim"]
+	path = pack/base/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/base/start/nerdcommenter"]
+	path = pack/base/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "pack/base/start/ultisnips"]
+	path = pack/base/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/base/start/vim-airline"]
+	path = pack/base/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/base/start/vim-airline-themes"]
+	path = pack/base/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/base/start/vim-easy-align"]
+	path = pack/base/start/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "pack/base/start/vim-eunuch"]
+	path = pack/base/start/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "pack/base/start/vim-repeat"]
+	path = pack/base/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/base/start/vim-surround"]
+	path = pack/base/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/base/start/vim-workspace"]
+	path = pack/base/start/vim-workspace
+	url = https://github.com/thaerkh/vim-workspace.git
+[submodule "pack/base/start/YouCompleteMe"]
+	path = pack/base/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

@@ -3,10 +3,10 @@ An updated version of my old vim configuration.
 Installation
 ------------
 
-Clone the repository with all of its submodules:
+Clone the repository:
 ```
 cd ~
-git clone --recursive https://github.com/stkstoyanov/vim-setup.git .vim
+git clone https://github.com/stkstoyanov/vim-setup.git .vim
 ```
 
 Clone all plugins to the local repository:
